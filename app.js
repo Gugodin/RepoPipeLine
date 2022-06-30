@@ -9,7 +9,7 @@ app.use(express.urlencoded({extended:true}))
 
 
 app.get('/',(req,res)=>{
-  res.send({respuesta:'all ok'})
+  res.send({respuesta:'all ok perrita'})
 })
 
 app.get('/prueba',(req,res)=>{
